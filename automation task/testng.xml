@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="firefox"></parameter>
+    <test verbose="2" preserve-order="true" name="Tamara Search Scenarios">
+        <classes>
+            <class name="tests.SearchTestScenarios">
+                <methods>
+                    <include name="validateIFSearchFieldDisplayed"/>
+                    <include name="validateThatSearchHasResult"/>
+                    <include name="validateSearchResultUsingNonExistingValue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,5 @@
+JDK: 13.0.2
+IDE: IntelliJ community Edition 2021.3
+
+how to:
+Just import the project, build it as maven project then run from the testng.xml file or inside the search scenario c
